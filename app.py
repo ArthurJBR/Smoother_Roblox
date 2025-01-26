@@ -88,4 +88,5 @@ def get_top_servers():
     return jsonify(response_data)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Usa a porta da variável de ambiente ou 5000 como padrão
+    app.run(host="0.0.0.0", port=port, debug=True)
