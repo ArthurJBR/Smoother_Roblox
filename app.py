@@ -6,8 +6,6 @@ from math import radians, sin, cos, sqrt, atan2
 import time
 import concurrent.futures
 
-MTUwNDkzMTgzOTMxMDE3MjI1MA.G88VzI.mHWkLGKjqmPVNFzX-8TTC2rWOs90CyXRHtFLbQ
-
 load_dotenv()
 
 app = Flask(__name__)
