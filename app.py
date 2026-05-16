@@ -9,6 +9,7 @@ import concurrent.futures
 load_dotenv()
 
 app = Flask(__name__)
+
 app.config['JSON_SORT_KEYS'] = False
 
 IPGEO_API_KEY = "ca92ae8841f0463f8ba0948524e200c5"
